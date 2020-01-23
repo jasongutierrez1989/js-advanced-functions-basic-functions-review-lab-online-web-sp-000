@@ -9,5 +9,5 @@ function mondayWork(activity='go to the office') {
 function wrapAdjective(flair='*') {
   return function(input='special') {
     return `You are ${flair}${input}${flair}`;
-  }
+  };
 }
