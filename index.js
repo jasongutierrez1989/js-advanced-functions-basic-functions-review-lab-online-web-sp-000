@@ -11,3 +11,7 @@ function wrapAdjective(flair='*') {
     return `You are ${flair}${input}${flair}!`;
   };
 }
+
+let Calculator = {function add(num1, num2) {
+  return num1 + num2;
+}};
